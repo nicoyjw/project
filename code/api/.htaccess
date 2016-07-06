@@ -1,0 +1,7 @@
+# BEGIN 
+<IfModule mod_rewrite.c>
+RewriteEngine on
+RewriteRule ^(.*)\.json $1\.php 
+</IfModule>
+
+# END 

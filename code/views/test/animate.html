@@ -1,0 +1,40 @@
+<div class="container" ng-controller="testAnimateCtrl">
+    <style>
+        .ani {
+            margin: 5px;
+            width: 100px;
+            height: 50px;
+            float: left;
+            display: block;
+            border: 1px solid red;
+            transition: all .5s ease-in-out;
+            position: absolute;
+        }
+    </style>
+    <div class="row">
+        <div class="col-md-12">
+            <div style="overflow: hidden; width:600px;height:120px;position: relative; border:1px solid green">
+                <div class="ani">
+                    <img class="img-responsive" alt="" src="../../img/banner1.jpg">
+                </div>
+                <div class="ani">
+                    <img class="img-responsive" alt="" src="../../img/banner2.jpg">
+                </div>
+                <div class="ani">
+                    <img class="img-responsive" alt="" src="../../img/banner3.jpg">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-12">
+            <button class="btn btn-default" type="button" ng-click="cancel();">
+                恢复
+            </button>
+            <button class="btn btn-default" type="button" ng-click="test();">
+                测试移动
+            </button>
+        </div>
+    </div>
+</div>

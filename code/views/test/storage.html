@@ -1,0 +1,33 @@
+<div class="container" ng-controller="testStorageCtrl">
+
+    <div class="row">
+        <label class="control-label col-md-1">key</label>
+        <div class="col-md-3">
+            <input type="input" class="form-control" placeholder="key" ng-model="key">
+        </div>
+        <label class="control-label col-md-1">value</label>
+        <div class="col-md-3">
+            <input type="input" class="form-control" placeholder="value" ng-model="value">
+        </div>
+    </div>
+    <div class="btn-lg">
+        <button type="button" class="btn btn-default" ng-click="set()">
+            <span class="glyphicon glyphicon-remove text-success"></span> 设置
+        </button>
+        <button type="commit" class="btn btn-default" ng-click="setJson()">
+            <span class="glyphicon glyphicon-ok text-success"></span> 设置Json
+        </button>
+        <button type="commit" class="btn btn-default" ng-click="get()">
+            <span class="glyphicon glyphicon-ok text-success"></span> 获取
+        </button>
+        <button type="commit" class="btn btn-default" ng-click="getJson()">
+            <span class="glyphicon glyphicon-ok text-success"></span> 获取JSON
+        </button>
+        <button type="commit" class="btn btn-default" ng-click="del()">
+            <span class="glyphicon glyphicon-ok text-success"></span> 删除
+        </button>
+        <button type="commit" class="btn btn-default" ng-click="clean()">
+            <span class="glyphicon glyphicon-ok text-success"></span> 清空
+        </button>
+    </div>
+</div>

@@ -1,0 +1,1670 @@
+2016-05-26 14:06:01 0501194
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_one
+
+2016-05-26 14:06:01 0501437
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_all
+
+2016-05-26 14:06:01 0501438
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_all
+
+2016-05-26 14:06:01 0501440
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_all
+
+2016-05-26 14:06:01 0501441
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_all
+
+2016-05-26 14:06:01 0501491
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_all
+
+2016-05-26 14:06:01 0501568
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_all
+
+2016-05-26 14:06:08 0508718
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_all
+
+2016-05-26 14:06:09 0509245
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_all
+
+2016-05-26 14:06:09 0509975
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_all
+
+2016-05-26 14:06:27 0527157
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : menu ---> get_menus
+
+2016-05-26 14:06:30 0530599
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_all
+
+2016-05-26 14:06:31 0531170
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_all
+
+2016-05-26 14:06:31 0531216
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_all
+
+2016-05-26 14:06:45 0545793
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_all
+
+2016-05-26 14:07:02 0502827
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_one
+
+2016-05-26 14:07:02 05021000
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_all
+
+2016-05-26 14:07:03 0503161
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_all
+
+2016-05-26 14:07:03 0503169
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_all
+
+2016-05-26 14:07:03 0503174
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_all
+
+2016-05-26 14:07:03 0503198
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_all
+
+2016-05-26 14:07:03 0503333
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_all
+
+2016-05-26 14:07:56 0556787
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_all
+
+2016-05-26 14:07:56 0556826
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_all
+
+2016-05-26 14:07:59 0559355
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_all
+
+2016-05-26 14:08:12 0512745
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_one
+
+2016-05-26 14:09:53 0553820
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_all
+
+2016-05-26 14:12:20 0520867
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_all
+
+2016-05-26 14:24:11 0511741
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_all
+
+2016-05-26 14:24:11 0511745
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_all
+
+2016-05-26 14:24:11 0511827
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_all
+
+2016-05-26 14:24:11 0511846
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_all
+
+2016-05-26 14:24:11 0511851
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_all
+
+2016-05-26 14:26:12 0512964
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_all
+
+2016-05-26 14:26:13 0513333
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_all
+
+2016-05-26 14:26:13 0513686
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_all
+
+2016-05-26 14:26:14 0514128
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_all
+
+2016-05-26 14:26:14 0514798
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_all
+
+2016-05-26 14:26:15 0515128
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_all
+
+2016-05-26 14:28:38 0538741
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : user ---> country_code
+
+2016-05-26 14:28:39 0539300
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : user ---> parities
+
+2016-05-26 14:46:04 0504588
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : menu ---> get_menus
+
+2016-05-26 14:46:06 0506324
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_all
+
+2016-05-26 14:46:08 0508133
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_all
+
+2016-05-26 14:46:08 0508187
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_all
+
+2016-05-26 14:46:10 0510867
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_one
+
+2016-05-26 14:46:38 0538879
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_all
+
+2016-05-26 14:46:40 0540732
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_all
+
+2016-05-26 14:46:50 055039
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_all
+
+2016-05-26 14:46:52 0552484
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_all
+
+2016-05-26 14:46:52 0552532
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_all
+
+2016-05-26 14:46:53 0553572
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_all
+
+2016-05-26 14:46:54 0554772
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_all
+
+2016-05-26 14:46:54 0554837
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_all
+
+2016-05-26 14:46:55 0555929
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : user ---> get_users
+
+2016-05-26 14:46:58 0558282
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_all
+
+2016-05-26 14:46:59 0559455
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : user ---> get_users
+
+2016-05-26 14:47:00 0500960
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_all
+
+2016-05-26 14:47:04 0504955
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_all
+
+2016-05-26 14:47:17 0517619
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_all
+
+2016-05-26 14:47:36 0536939
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_all
+
+2016-05-26 14:47:37 0537903
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_one
+
+2016-05-26 14:47:38 0538906
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_one
+
+2016-05-26 15:05:03 0503481
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_one
+
+2016-05-26 15:05:03 0503544
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : user ---> country_code
+
+2016-05-26 15:05:03 0503697
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_all
+
+2016-05-26 15:05:03 0503980
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : user ---> parities
+
+2016-05-26 15:05:10 0510606
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_one
+
+2016-05-26 15:05:10 0510859
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_all
+
+2016-05-26 15:05:10 0510936
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : user ---> country_code
+
+2016-05-26 15:05:12 0512343
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : user ---> parities
+
+2016-05-26 15:05:13 0513101
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_all
+
+2016-05-26 15:05:16 0516402
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_all
+
+2016-05-26 15:05:16 0516438
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_all
+
+2016-05-26 15:05:19 0519313
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_all
+
+2016-05-26 15:05:22 0522354
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_one
+
+2016-05-26 15:05:22 0522455
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_all
+
+2016-05-26 15:05:22 0522461
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_all
+
+2016-05-26 15:05:33 0533233
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_one
+
+2016-05-26 15:05:33 0533305
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_all
+
+2016-05-26 15:05:33 0533338
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_all
+
+2016-05-26 15:05:40 0540808
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_one
+
+2016-05-26 15:05:40 0540938
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_all
+
+2016-05-26 15:05:40 0540948
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_all
+
+2016-05-26 15:06:43 054361
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_all
+
+2016-05-26 15:06:43 0543126
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_all
+
+2016-05-26 15:06:43 0543133
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_all
+
+2016-05-26 15:06:43 0543157
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_all
+
+2016-05-26 15:06:43 0543344
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_all
+
+2016-05-26 15:06:52 0552882
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_all
+
+2016-05-26 15:06:53 0553319
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_all
+
+2016-05-26 15:06:53 0553655
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_all
+
+2016-05-26 15:07:05 0505901
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_all
+
+2016-05-26 15:07:06 0506924
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_one
+
+2016-05-26 15:07:08 0508762
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_all
+
+2016-05-26 15:07:30 0530548
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_one
+
+2016-05-26 15:08:29 0529185
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : menu ---> get_menus
+
+2016-05-26 15:08:29 0529264
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_one
+
+2016-05-26 15:09:07 0507804
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : menu ---> get_menus
+
+2016-05-26 15:09:07 0507917
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_one
+
+2016-05-26 15:10:04 0504172
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : menu ---> get_menus
+
+2016-05-26 15:10:04 0504322
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_one
+
+2016-05-26 15:10:09 0509635
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : menu ---> get_menus
+
+2016-05-26 15:10:09 0509678
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_one
+
+2016-05-26 15:10:25 0525475
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : menu ---> get_menus
+
+2016-05-26 15:10:25 0525520
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_one
+
+2016-05-26 15:10:53 0553879
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : menu ---> get_menus
+
+2016-05-26 15:10:53 0553973
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_one
+
+2016-05-26 15:10:57 0557231
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : menu ---> get_menus
+
+2016-05-26 15:10:57 0557304
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_one
+
+2016-05-26 15:11:16 0516692
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : menu ---> get_menus
+
+2016-05-26 15:11:17 0517373
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_one
+
+2016-05-26 15:11:47 0547794
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : menu ---> get_menus
+
+2016-05-26 15:11:47 0547813
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_one
+
+2016-05-26 15:15:15 0515951
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : menu ---> get_menus
+
+2016-05-26 15:15:15 0515985
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_one
+
+2016-05-26 15:15:28 0528952
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : menu ---> get_menus
+
+2016-05-26 15:15:28 0528964
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_one
+
+2016-05-26 15:15:45 0545587
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : menu ---> get_menus
+
+2016-05-26 15:15:45 0545685
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_one
+
+2016-05-26 15:15:49 0549965
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : menu ---> get_menus
+
+2016-05-26 15:15:50 05508
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_one
+
+2016-05-26 15:16:03 0503142
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_all
+
+2016-05-26 15:16:03 0503609
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_all
+
+2016-05-26 15:16:03 0503658
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_all
+
+2016-05-26 15:16:06 0506317
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_all
+
+2016-05-26 15:16:07 0507121
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_all
+
+2016-05-26 15:16:08 0508447
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_all
+
+2016-05-26 15:20:06 0506415
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_one
+
+2016-05-26 15:20:07 0507861
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : menu ---> get_menus
+
+2016-05-26 15:20:07 0507926
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_one
+
+2016-05-26 15:20:13 0513641
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : menu ---> get_menus
+
+2016-05-26 15:20:13 0513713
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_one
+
+2016-05-26 15:20:21 0521254
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : menu ---> get_menus
+
+2016-05-26 15:20:21 0521317
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_one
+
+2016-05-26 15:20:43 0543370
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : menu ---> get_menus
+
+2016-05-26 15:20:43 0543385
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_one
+
+2016-05-26 15:20:51 0551833
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_all
+
+2016-05-26 15:20:55 0555173
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_all
+
+2016-05-26 15:20:56 0556311
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_all
+
+2016-05-26 15:20:56 0556368
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_all
+
+2016-05-26 15:20:58 055814
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_all
+
+2016-05-26 15:20:59 0559119
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_all
+
+2016-05-26 15:20:59 0559565
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_all
+
+2016-05-26 15:21:01 050169
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_one
+
+2016-05-26 15:23:05 0505143
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : menu ---> get_menus
+
+2016-05-26 15:23:05 0505318
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_one
+
+2016-05-26 15:23:09 0509384
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : menu ---> get_menus
+
+2016-05-26 15:23:09 0509564
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_one
+
+2016-05-26 15:23:20 0520236
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : menu ---> get_menus
+
+2016-05-26 15:23:20 0520432
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_one
+
+2016-05-26 15:26:42 0542946
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : menu ---> get_menus
+
+2016-05-26 15:26:43 0543114
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_one
+
+2016-05-26 15:29:26 0526668
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : menu ---> get_menus
+
+2016-05-26 15:29:26 0526852
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_one
+
+2016-05-26 15:30:37 053719
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : menu ---> get_menus
+
+2016-05-26 15:30:37 0537216
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_one
+
+2016-05-26 15:30:50 0550836
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : menu ---> get_menus
+
+2016-05-26 15:30:50 0550995
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_one
+
+2016-05-26 15:32:41 0541908
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : menu ---> get_menus
+
+2016-05-26 15:32:42 054246
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_one
+
+2016-05-26 15:33:08 0508311
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : menu ---> get_menus
+
+2016-05-26 15:33:08 0508505
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_one
+
+2016-05-26 15:36:33 0533338
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : menu ---> get_menus
+
+2016-05-26 15:36:33 0533562
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_one
+
+2016-05-26 15:37:20 0520866
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_all
+
+2016-05-26 15:37:22 0522213
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_all
+
+2016-05-26 15:39:20 0520325
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_all
+
+2016-05-26 15:39:21 0521457
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : menu ---> get_menus
+
+2016-05-26 15:39:21 0521575
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_all
+
+2016-05-26 15:39:22 0522511
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_all
+
+2016-05-26 15:39:24 0524613
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_all
+
+2016-05-26 15:39:31 0531445
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : menu ---> get_menus
+
+2016-05-26 15:39:31 0531549
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_all
+
+2016-05-26 15:39:34 0534155
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_all
+
+2016-05-26 15:39:46 0546345
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : menu ---> get_menus
+
+2016-05-26 15:39:46 0546491
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_all
+
+2016-05-26 15:39:52 0552229
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_all
+
+2016-05-26 15:41:45 0545743
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : menu ---> get_menus
+
+2016-05-26 15:41:45 0545855
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_all
+
+2016-05-26 15:41:52 0552184
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : menu ---> get_menus
+
+2016-05-26 15:41:52 0552284
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_all
+
+2016-05-26 15:41:53 0553584
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_all
+
+2016-05-26 15:42:17 0517221
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_all
+
+2016-05-26 15:42:32 0532359
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : menu ---> get_menus
+
+2016-05-26 15:42:32 0532446
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_all
+
+2016-05-26 15:42:33 0533916
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_all
+
+2016-05-26 15:42:37 0537163
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_all
+
+2016-05-26 15:42:45 0545477
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : menu ---> get_menus
+
+2016-05-26 15:42:45 0545591
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_all
+
+2016-05-26 15:42:47 0547567
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_all
+
+2016-05-26 15:43:19 0519561
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : menu ---> get_menus
+
+2016-05-26 15:43:19 0519642
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_all
+
+2016-05-26 15:43:21 0521579
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_all
+
+2016-05-26 15:43:32 053270
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_all
+
+2016-05-26 15:43:45 0545427
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_all
+
+2016-05-26 15:43:45 0545480
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_all
+
+2016-05-26 15:43:49 054966
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_by_id
+
+2016-05-26 15:44:23 0523313
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_all
+
+2016-05-26 15:44:23 0523403
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_all
+
+2016-05-26 15:44:25 052582
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : user ---> get_users
+
+2016-05-26 15:44:27 0527719
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_all
+
+2016-05-26 15:44:30 0530194
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_all
+
+2016-05-26 15:45:29 0529657
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : menu ---> get_menus
+
+2016-05-26 15:45:29 0529773
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_all
+
+2016-05-26 15:45:31 0531590
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_all
+
+2016-05-26 15:45:50 0550785
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : menu ---> get_menus
+
+2016-05-26 15:45:50 0550895
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_all
+
+2016-05-26 15:46:00 0500855
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_all
+
+2016-05-26 15:46:00 0500904
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_all
+
+2016-05-26 15:47:04 0504304
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : menu ---> get_menus
+
+2016-05-26 15:47:04 0504358
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_all
+
+2016-05-26 15:47:04 0504444
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_all
+
+2016-05-26 15:47:06 0506713
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_all
+
+2016-05-26 15:47:09 0509425
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_all
+
+2016-05-26 15:47:11 0511710
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : menu ---> get_menus
+
+2016-05-26 15:47:11 0511790
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_all
+
+2016-05-26 15:47:11 0511868
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_all
+
+2016-05-26 15:47:13 0513730
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_by_id
+
+2016-05-26 15:47:21 0521488
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_all
+
+2016-05-26 15:47:21 0521590
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_all
+
+2016-05-26 15:49:42 0542754
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : menu ---> get_menus
+
+2016-05-26 15:49:42 0542801
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_all
+
+2016-05-26 15:49:42 0542892
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_all
+
+2016-05-26 15:49:44 0544166
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_by_id
+
+2016-05-26 15:49:46 0546564
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_all
+
+2016-05-26 15:49:46 0546664
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_all
+
+2016-05-26 15:49:54 0554420
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : menu ---> get_menus
+
+2016-05-26 15:49:54 0554501
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_all
+
+2016-05-26 15:49:54 0554564
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_all
+
+2016-05-26 15:49:55 0555364
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_by_id
+
+2016-05-26 15:50:33 0533407
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : menu ---> get_menus
+
+2016-05-26 15:50:33 0533488
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_all
+
+2016-05-26 15:50:33 0533554
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_all
+
+2016-05-26 15:50:34 0534451
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_by_id
+
+2016-05-26 15:50:48 0548567
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_all
+
+2016-05-26 15:50:48 0548638
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_all
+
+2016-05-26 15:50:55 0555117
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : menu ---> get_menus
+
+2016-05-26 15:50:55 0555134
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_all
+
+2016-05-26 15:50:55 0555239
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_all
+
+2016-05-26 15:50:55 0555799
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_by_id
+
+2016-05-26 15:52:23 0523531
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_all
+
+2016-05-26 15:52:23 0523603
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_all
+
+2016-05-26 15:52:24 0524386
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : menu ---> get_menus
+
+2016-05-26 15:52:24 0524436
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_all
+
+2016-05-26 15:52:24 0524515
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_all
+
+2016-05-26 15:52:27 0527354
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_by_id
+
+2016-05-26 15:52:41 0541862
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_all
+
+2016-05-26 15:52:41 0541928
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_all
+
+2016-05-26 15:52:43 0543406
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_by_id
+
+2016-05-26 15:53:05 0505109
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_all
+
+2016-05-26 15:53:05 0505179
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_all
+
+2016-05-26 15:54:09 0509227
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : menu ---> get_menus
+
+2016-05-26 15:54:09 0509282
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_all
+
+2016-05-26 15:54:09 0509351
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_all
+
+2016-05-26 15:54:11 0511166
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_by_id
+
+2016-05-26 15:54:41 0541516
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_all
+
+2016-05-26 15:54:41 0541586
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_all
+
+2016-05-26 15:54:43 0543978
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_all
+
+2016-05-26 15:54:46 054699
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_all
+
+2016-05-26 15:54:46 0546777
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_all
+
+2016-05-26 15:54:46 0546829
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_all
+
+2016-05-26 15:54:48 0548550
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_all
+
+2016-05-26 15:54:49 0549605
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_one
+
+2016-05-26 15:56:31 0531478
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_one
+
+2016-05-26 15:56:37 0537952
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_all
+
+2016-05-26 15:56:38 0538758
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_one
+
+2016-05-26 15:57:04 0504339
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : menu ---> get_menus
+
+2016-05-26 15:57:04 0504486
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_one
+
+2016-05-26 15:59:18 0518700
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : menu ---> get_menus
+
+2016-05-26 15:59:18 0518891
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_one
+
+2016-05-26 15:59:45 0545307
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : menu ---> get_menus
+
+2016-05-26 15:59:45 0545478
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_one
+
+2016-05-26 16:00:08 0508337
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : menu ---> get_menus
+
+2016-05-26 16:00:08 0508476
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_one
+
+2016-05-26 16:00:55 0555580
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : menu ---> get_menus
+
+2016-05-26 16:00:55 0555692
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_one
+
+2016-05-26 16:01:09 0509949
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : menu ---> get_menus
+
+2016-05-26 16:01:10 051084
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_one
+
+2016-05-26 16:04:28 0528864
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : menu ---> get_menus
+
+2016-05-26 16:04:29 052936
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_one
+
+2016-05-26 16:04:49 0549952
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : menu ---> get_menus
+
+2016-05-26 16:04:50 055094
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_one
+
+2016-05-26 16:05:29 0529323
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : menu ---> get_menus
+
+2016-05-26 16:05:29 0529486
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_one
+
+2016-05-26 16:06:58 0558427
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : menu ---> get_menus
+
+2016-05-26 16:06:58 0558591
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_one
+
+2016-05-26 16:07:12 0512785
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : menu ---> get_menus
+
+2016-05-26 16:07:12 0512938
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_one
+
+2016-05-26 16:09:00 0500258
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : menu ---> get_menus
+
+2016-05-26 16:09:00 0500384
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_one
+
+2016-05-26 16:12:16 0516175
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : menu ---> get_menus
+
+2016-05-26 16:12:16 0516279
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_one
+
+2016-05-26 16:12:37 0537897
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : menu ---> get_menus
+
+2016-05-26 16:12:38 053866
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_one
+
+2016-05-26 16:14:10 0510778
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : menu ---> get_menus
+
+2016-05-26 16:14:10 0510916
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_one
+
+2016-05-26 16:15:20 0520379
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : menu ---> get_menus
+
+2016-05-26 16:15:20 0520517
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_one
+
+2016-05-26 16:16:32 0532576
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : menu ---> get_menus
+
+2016-05-26 16:16:32 0532736
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_one
+
+2016-05-26 16:17:22 0522300
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : menu ---> get_menus
+
+2016-05-26 16:17:22 0522522
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_one
+
+2016-05-26 16:18:19 0519902
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : menu ---> get_menus
+
+2016-05-26 16:18:20 052045
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_one
+
+2016-05-26 16:18:45 0545731
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : menu ---> get_menus
+
+2016-05-26 16:18:45 0545887
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_one
+
+2016-05-26 16:19:08 0508669
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : menu ---> get_menus
+
+2016-05-26 16:19:08 0508843
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_one
+
+2016-05-26 16:19:48 0548240
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : menu ---> get_menus
+
+2016-05-26 16:19:48 0548415
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_one
+
+2016-05-26 16:20:15 0515908
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : menu ---> get_menus
+
+2016-05-26 16:20:16 051661
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_one
+
+2016-05-26 16:20:21 0521331
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : menu ---> get_menus
+
+2016-05-26 16:20:21 0521525
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_one
+
+2016-05-26 16:22:08 0508977
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : menu ---> get_menus
+
+2016-05-26 16:22:09 0509119
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_one
+
+2016-05-26 16:22:26 0526143
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : menu ---> get_menus
+
+2016-05-26 16:22:26 0526322
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_one
+
+2016-05-26 16:23:33 0533139
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : menu ---> get_menus
+
+2016-05-26 16:23:33 0533274
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_one
+
+2016-05-26 16:24:52 0552731
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : menu ---> get_menus
+
+2016-05-26 16:24:52 0552887
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_one
+
+2016-05-26 16:24:59 0559789
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_all
+
+2016-05-26 16:25:01 0501682
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : user ---> get_users
+
+2016-05-26 16:25:03 0503405
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_all
+
+2016-05-26 16:25:04 050441
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_all
+
+2016-05-26 16:25:04 050494
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_all
+
+2016-05-26 16:25:04 0504752
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_all
+
+2016-05-26 16:25:05 0505731
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_all
+
+2016-05-26 16:25:05 0505783
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_all
+
+2016-05-26 16:25:06 0506224
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_all
+
+2016-05-26 16:25:06 0506856
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : news ---> check_one
+
+2016-05-26 16:25:08 0508296
+index.php->line:14->call :run
+App.class.php->line:66->call :log_log
+Call Action : menu ---> get_menus
+

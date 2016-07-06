@@ -1,0 +1,28 @@
+<div class="homeFooter-wr clear" ng-controller="homeFooterCtrl">
+    <div class="hf-logo">
+        <img ng-src="{{logoImages.footLogo}}" alt="易联通达">
+    </div>
+    <div class="hf-list">
+        <ul>
+            <li ng-repeat="item in footLinks" ng-show="item.columns==1"><a ng-href="{{item.url}}" ng-click="forceRefresh(item.urlSelf)" class="yltd-a" ng-bind="lang=='cn'?item.title:item.title_english" target="{{!!item.urlSelf?'_self':'_blank'}}"></a></li>
+        </ul>
+        <ul>
+            <li ng-repeat="item in footLinks" ng-show="item.columns==2"><a ng-href="{{item.url}}" ng-click="forceRefresh(item.urlSelf)" class="yltd-a" ng-bind="lang=='cn'?item.title:item.title_english" target="{{!!item.urlSelf?'_self':'_blank'}}"></a></li>
+        </ul>
+        <ul>
+            <li ng-repeat="item in footLinks" ng-show="item.columns==3"><a ng-href="{{item.url}}" ng-click="forceRefresh(item.urlSelf)" class="yltd-a" ng-bind="lang=='cn'?item.title:item.title_english" target="{{!!item.urlSelf?'_self':'_blank'}}"></a></li>
+        </ul>
+        <ul>
+            <li ng-repeat="item in footLinks" ng-show="item.columns==4"><a ng-href="{{item.url}}" ng-click="forceRefresh(item.urlSelf)" class="yltd-a" ng-bind="lang=='cn'?item.title:item.title_english" target="{{!!item.urlSelf?'_self':'_blank'}}"></a></li>
+        </ul>
+        <ul>
+            <li ng-repeat="item in footLinks" ng-show="item.columns==5"><a ng-href="{{item.url}}" ng-click="forceRefresh(item.urlSelf)" class="yltd-a" ng-bind="lang=='cn'?item.title:item.title_english" target="{{!!item.urlSelf?'_self':'_blank'}}"></a></li>
+        </ul>
+    </div>
+    <div class="hf-weixin">
+        <img ng-src="{{logoImages.qrCode}}" alt="微信扫码">
+        <div class="pt10 pb10" ng-bind="'微信扫码'|T"></div>
+    </div>
+
+    <div class="copyright clear" ng-bind="lang=='cn'?logoImages.copyright:logoImages.copyright_english"></div>
+</div>

@@ -1,0 +1,8 @@
+2016-05-17 18:28:18 051819
+index.php->line:17->call :log_error
+Invalid object ID
+
+2016-05-17 18:28:20 0520749
+index.php->line:17->call :log_error
+Invalid object ID
+

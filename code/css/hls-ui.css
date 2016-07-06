@@ -1,0 +1,52 @@
+/*
+* @Author: 刘玉洁
+* @Date:   2016-05-11 14:33:02
+* @Last Modified by:   Administrator
+* @Last Modified time: 2016-05-19 22:04:07
+*/
+
+/**************************hls-pagination********************/
+.pagination a {
+    color:#333!important;
+    font-size:12px!important;
+    outline:none;
+}
+.pagination .active a {
+    color:#fff!important;
+    background:#122B87!important;
+    border-color:#122B87!important;
+    outline:none;
+}
+
+/*************************ng-message**********************/
+.error-messages.ng-active {    
+    color:rgba(207,36,36,.9);
+    padding-left:20px;
+    border-radius:5px;
+    position:relative;
+    font-size:12px;
+    font-weight:bold;
+    margin-top:5px;
+}
+.error-messages.ng-active:before {
+    position:absolute;
+    top:50%;
+    margin-top:-8px;
+    content:"!";
+    left:0;
+    width:14px;
+    height:14px;
+    border-radius:100%;
+    color:#fff;
+    background:rgba(207,36,36,.8);
+    line-height:14px;
+    text-align:center;
+    font-size:10px;
+}
+
+/*************************blockUI************************/
+.block-ui-message {
+    background:transparent;
+    color:#122B87;
+    text-shadow:1px 1px 3px #333;
+}

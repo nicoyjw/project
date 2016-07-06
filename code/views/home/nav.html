@@ -1,0 +1,11 @@
+<nav class="homeNav-wr p-bet clear" role="navigation" ng-controller="homeNavCtrl">
+    <div class="l-wr fl"><img ng-src="{{logoImages.topLogo}}" alt="易联通达" class="vam"></div>
+    <ul class="r-wr fr clear nav-wr">
+        <li class="trans25" nav-active='about' ng-class="{'active':navActives.about}"><a href="#/about/index" ng-bind="'关于我们'|T"></a></li> 
+        <li class="trans25" nav-active ng-click="notOpen()"><a href="javascript:;" ng-bind="'人才招聘'|T"></a><i>|</i></li>
+        <li class="trans25" nav-active='news' ng-class="{'active':navActives.news}"><a href="#/news/index" ng-bind="'新闻资讯'|T"></a><i>|</i></li>
+        <li class="trans25" nav-active ng-click="notOpen()"><a href="javascript:;" ng-bind="'易联论坛'|T"></a><i>|</i></li>
+        <li class="trans25" nav-active ng-click="notOpen()"><a href="javascript:;" ng-bind="'招商加盟'|T"></a><i>|</i></li>
+        <li class="trans25" nav-active='home' ng-class="{'active':navActives.home}"><a href="#/home/index" ng-bind="'首页'|T"></a><i>|</i></li>
+    </ul>
+</nav>

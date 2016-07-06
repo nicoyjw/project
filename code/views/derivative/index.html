@@ -1,0 +1,359 @@
+<div class="derivative-wr p-bet clear" ng-controller="derivativeIndexCtrl">
+	<ul class="d-category fl">
+		<li class="mb15" ng-repeat="item in category" ng-bind="item.name|T" ng-class="{'active':item.active}" ng-click="cutCategory(item,$index+1)"></li>
+	</ul>
+
+
+	<div class="d-content fr clear">
+		<div ng-include="pageUrl"></div>
+	</div>
+</div>
+
+<script type="text/ng-template" id="derivative.freight.tpl">
+	<p class="mt10" ng-bind="'待续'|T"></p>
+</script>
+
+<!-- 最新汇率 -->
+<script type="text/ng-template" id="derivative.exchangeRate.tpl">
+	<div class="exchangeRate-wr">
+		<p class="fs-15 pt10" ng-bind="'世界各国最新汇率'|T"></p>
+		<p class="fs-12 pl25 ml10" ng-bind="'易联汇率提示'|T"></p>
+		<p class="pl25 ml10 text-danger fs-12"><i ng-bind="'汇率数据提示'|T"></i>{{exc_rate.updateTime}}</p>
+
+
+		<div class="pl25 pt15 ml10 conversion yltd-w-80 clear" block-ui="conversionBlock">
+			<p class="font-w fs-16 mb15 text-danger" ng-if="!exc_rate.error">
+				<i ng-bind="exc_rate.original_price"></i><i ng-bind="original_code.name|T"></i><i ng-show="original_code.name">=</i><i ng-bind="exc_rate.target_price"></i><i ng-bind="target_code.name|T"></i></i>
+			</p>
+			<p class="font-w fs-16 mb15 text-danger" ng-if="exc_rate.error" ng-bind="'请选择不同的货币单位'|T"></p>
+			<div class="yltd-w-40 fl">
+				<div class="form-group">
+					<label class="control-label" for="original_country" ng-bind="'原始货币'|T"></label>
+					<select class="form-control" ng-model="original_code" ng-options="item.name|T for item in exc_rate.original_country" id="original_country" name="original_country" ng-change="changeCode('from', original_code)">
+						<option value="" ng-bind="'请选择原始货币'|T"></option>
+					</select>
+				</div>
+				<div class="form-group">
+					<div class="clear">
+						<label class="control-label fl" for="original_price" ng-bind="'金额'|T"></label>
+						<span class="fr fs-12" ng-bind="'我要兑换的金额'|T"></span>
+					</div>
+					<input type="text" class="form-control" ng-model="exc_rate.original_price" id="original_price" name="original_price" autocomplete="off" ng-blur="changePrice('from', exc_rate.original_price)">
+				</div>
+			</div>
+			<div class="yltd-w-10 ml20 mr20 fl text-center icon">
+				<i class="fa fa-caret-left" aria-hidden="true"></i>
+				<i class="fa fa-caret-right" aria-hidden="true"></i>
+			</div>
+			<div class="yltd-w-40 fl">
+				<div class="form-group">
+					<label class="control-label" for="target_country" ng-bind="'目标货币'|T"></label>
+					<select class="form-control" ng-model="target_code" ng-options="item.name|T for item in exc_rate.target_country" id="target_country" name="target_country" ng-change="changeCode('to', target_code)">
+						<option value="" ng-bind="'请选择目标货币'|T"></option>
+					</select>
+				</div>
+				<div class="form-group">
+					<div class="clear">
+						<label class="control-label fl" for="currency_price" ng-bind="'金额'|T"></label>
+						<span class="fr fs-12" ng-bind="'我要兑换的金额'|T"></span>
+					</div>
+					<input type="text" class="form-control" ng-model="exc_rate.target_price" name="currency_price" id="currency_price" autocomplete="off" ng-blur="changePrice('to', exc_rate.target_price)">
+				</div>
+			</div>
+		</div>
+	</div>
+
+</script>
+
+<script type="text/ng-template" id="derivative.worldTime.tpl">
+	<div class="worldTime">
+		<table class="table table-hover fs-12">
+		    <tr class="fs-14"><th ng-bind="'全国主要城市'|T"></th><th ng-bind="'同步即时时间'|T"></th>
+		    </tr>
+		    <tr><td>[美国] Honolulu 夏威夷檀香山</td><td><span id="Clockk0"></span></td>
+		    </tr>
+		    <tr><td>[美国] Anchorage 阿拉斯加安克雷奇</td><td><span id="Clockk1"></span></td>
+		    </tr>
+		    <tr><td>[加拿大] Vancouver 温哥华</td><td><span id="Clockk2"></span></td>
+		    </tr>
+		    <tr><td>[美国] San Francisco 旧金山</td><td><span id="Clockk3"></span></td>
+		    </tr>
+		    <tr><td>[美国] Seattle 西雅图</td><td><span id="Clockk4"></span></td>
+		    </tr>
+		    <tr><td>[美国] Los Angeles 洛杉矶</td><td><span id="Clockk5"></span></td>
+		    </tr>
+		    <tr><td>[加拿大] Aklavik 阿克拉维克</td><td><span id="Clockk6"></span></td>
+		    </tr>
+		    <tr><td>[加拿大] Edmonton 艾德蒙顿</td><td><span id="Clockk7"></span></td>
+		    </tr>
+		    <tr><td>[美国] Phoenix 凤凰城</td><td><span id="Clockk8"></span></td>
+		    </tr>
+		    <tr><td>[美国] Denver 丹佛</td><td><span id="Clockk9"></span></td>
+		    </tr>
+		    <tr><td>[墨西哥] Mexico City 墨西哥城</td><td><span id="Clockk10"></span></td>
+		    </tr>
+		    <tr><td>[加拿大] Winnipeg 温尼伯</td><td><span id="Clockk11"></span></td>
+		    </tr>
+		    <tr><td>[美国] Houston 休斯敦</td><td><span id="Clockk12"></span></td>
+		    </tr>
+		    <tr><td>[美国] Minneapolis 明尼亚波利斯</td><td><span id="Clockk13"></span></td>
+		    </tr>
+		    <tr><td>[美国] St. Paul 圣保罗</td><td><span id="Clockk14"></span></td>
+		    </tr>
+		    <tr><td>[美国] New Orleans 新奥尔良</td><td><span id="Clockk15"></span></td>
+		    </tr>
+		    <tr><td>[美国] Chicago 芝加哥</td><td><span id="Clockk16"></span></td>
+		    </tr>
+		    <tr><td>[美国] Montgomery 蒙哥马利</td><td><span id="Clockk17"></span></td>
+		    </tr>
+		    <tr><td>[危地马拉] Guatemala 危地马拉</td><td><span id="Clockk18"></span></td>
+		    </tr>
+		    <tr><td>[萨尔瓦多] San Salvador 圣萨尔瓦多</td><td><span id="Clockk19"></span></td>
+		    </tr>
+		    <tr><td>[洪都拉斯] Tegucigalpa 特古西加尔巴</td><td><span id="Clockk20"></span></td>
+		    </tr>
+		    <tr><td>[尼加拉瓜] Managua 马那瓜</td><td><span id="Clockk21"></span></td>
+		    </tr>
+		    <tr><td>[古巴] Havana 哈瓦那</td><td><span id="Clockk22"></span></td>
+		    </tr>
+		    <tr><td>[美国] Indianapolis 印地安纳波利斯</td><td><span id="Clockk23"></span></td>
+		    </tr>
+		    <tr><td>[美国] Atlanta 亚特兰大</td><td><span id="Clockk24"></span></td>
+		    </tr>
+		    <tr><td>[美国] Detroit 底特律</td><td><span id="Clockk25"></span></td>
+		    </tr>
+		    <tr><td>[美国] Washington DC 华盛顿哥伦比亚特区</td><td><span id="Clockk26"></span></td>
+		    </tr>
+		    <tr><td>[美国] Philadelphia 费城</td><td><span id="Clockk27"></span></td>
+		    </tr>
+		    <tr><td>[加拿大] Toronto 多伦多</td><td><span id="Clockk28"></span></td>
+		    </tr>
+		    <tr><td>[加拿大] Ottawa 渥太华</td><td><span id="Clockk29"></span></td>
+		    </tr>
+		    <tr><td>[巴哈马] Nassau 拿骚</td><td><span id="Clockk30"></span></td>
+		    </tr>
+		    <tr><td>[秘鲁] Lima 利马</td><td><span id="Clockk31"></span></td>
+		    </tr>
+		    <tr><td>[牙买加] Kingston 金斯敦</td><td><span id="Clockk32"></span></td>
+		    </tr>
+		    <tr><td>[哥伦比亚] Bogota 波哥大</td><td><span id="Clockk33"></span></td>
+		    </tr>
+		    <tr><td>[美国] New York 纽约</td><td><span id="Clockk34"></span></td>
+		    </tr>
+		    <tr><td>[加拿大] Montreal 蒙特利尔</td><td><span id="Clockk35"></span></td>
+		    </tr>
+		    <tr><td>[美国] Boston 波士顿</td><td><span id="Clockk36"></span></td>
+		    </tr>
+		    <tr><td>[多米尼加] Santo Domingo 圣多明各</td><td><span id="Clockk37"></span></td>
+		    </tr>
+		    <tr><td>[玻利维亚] La Paz 拉帕兹</td><td><span id="Clockk38"></span></td>
+		    </tr>
+		    <tr><td>[委内瑞拉] Caracas 加拉加斯</td><td><span id="Clockk39"></span></td>
+		    </tr>
+		    <tr><td>[波多黎各] San Juan 圣胡安</td><td><span id="Clockk40"></span></td>
+		    </tr>
+		    <tr><td>[加拿大] Halifax 哈里法克斯</td><td><span id="Clockk41"></span></td>
+		    </tr>
+		    <tr><td>[智利] Santiago 圣地亚哥</td><td><span id="Clockk42"></span></td>
+		    </tr>
+		    <tr><td>[巴拉圭] Asuncion 亚松森</td><td><span id="Clockk43"></span></td>
+		    </tr>
+		    <tr><td>[加拿大] St\. John\'s 圣约翰斯</td><td><span id="Clockk44"></span></td>
+		    </tr>
+		    <tr><td>[阿根廷] Buenos Aires 布宜诺斯艾利斯</td><td><span id="Clockk45"></span></td>
+		    </tr>
+		    <tr><td>[乌拉圭] Montevideo 蒙特维的亚</td><td><span id="Clockk46"></span></td>
+		    </tr>
+		    <tr><td>[巴西] Brasilia 巴西利亚</td><td><span id="Clockk47"></span></td>
+		    </tr>
+		    <tr><td>[巴西] Sao Paulo 圣保罗</td><td><span id="Clockk48"></span></td>
+		    </tr>
+		    <tr><td>[巴西] Rio de Janeiro 里约热内卢</td><td><span id="Clockk49"></span></td>
+		    </tr>
+		    <tr><td>[冰岛] Reykjavik 雷克雅未克</td><td><span id="Clockk50"></span></td>
+		    </tr>
+		    <tr><td>[葡萄牙] Lisbon 里斯本</td><td><span id="Clockk51"></span></td>
+		    </tr>
+		    <tr><td>[摩洛哥] Casablanca 卡萨布兰卡</td><td><span id="Clockk52"></span></td>
+		    </tr>
+		    <tr><td>[爱尔兰] Dublin 都柏林</td><td><span id="Clockk53"></span></td>
+		    </tr>
+		    <tr><td>[英国] London 伦敦</td><td><span id="Clockk54"></span></td>
+		    </tr>
+		    <tr><td>[西班牙] Madrid 马德里</td><td><span id="Clockk55"></span></td>
+		    </tr>
+		    <tr><td>[西班牙] Barcelona 巴塞罗那</td><td><span id="Clockk56"></span></td>
+		    </tr>
+		    <tr><td>[法国] Paris 巴黎</td><td><span id="Clockk57"></span></td>
+		    </tr>
+		    <tr><td>[尼日利亚] Lagos 拉各斯</td><td><span id="Clockk58"></span></td>
+		    </tr>
+		    <tr><td>[阿尔及利亚] Algiers 阿尔及尔</td><td><span id="Clockk59"></span></td>
+		    </tr>
+		    <tr><td>[比利时] Brussels 布鲁塞尔</td><td><span id="Clockk60"></span></td>
+		    </tr>
+		    <tr><td>[荷兰] Amsterdam 阿姆斯特丹</td><td><span id="Clockk61"></span></td>
+		    </tr>
+		    <tr><td>[瑞士] Geneva 日内瓦</td><td><span id="Clockk62"></span></td>
+		    </tr>
+		    <tr><td>[瑞士] Zurich 苏黎世</td><td><span id="Clockk63"></span></td>
+		    </tr>
+		    <tr><td>[德国] Frankfurt 法兰克福</td><td><span id="Clockk64"></span></td>
+		    </tr>
+		    <tr><td>[挪威] Oslo 奥斯陆</td><td><span id="Clockk65"></span></td>
+		    </tr>
+		    <tr><td>[丹麦] Copenhagen 哥本哈根</td><td><span id="Clockk66"></span></td>
+		    </tr>
+		    <tr><td>[意大利] Rome 罗马</td><td><span id="Clockk67"></span></td>
+		    </tr>
+		    <tr><td>[德国] Berlin 柏林</td><td><span id="Clockk68"></span></td>
+		    </tr>
+		    <tr><td>[捷克] Prague 布拉格</td><td><span id="Clockk69"></span></td>
+		    </tr>
+		    <tr><td>[克罗地亚] Zagreb 萨格雷布</td><td><span id="Clockk70"></span></td>
+		    </tr>
+		    <tr><td>[奥地利] Vienna 维也纳</td><td><span id="Clockk71"></span></td>
+		    </tr>
+		    <tr><td>[瑞典] Stockholm 斯德哥尔摩</td><td><span id="Clockk72"></span></td>
+		    </tr>
+		    <tr><td>[匈牙利] Budapest 布达佩斯</td><td><span id="Clockk73"></span></td>
+		    </tr>
+		    <tr><td>[塞尔维亚与蒙特内哥罗] Belgrade 贝尔格莱德</td><td><span id="Clockk74"></span></td>
+		    </tr>
+		    <tr><td>[波兰] Warsaw 华沙</td><td><span id="Clockk75"></span></td>
+		    </tr>
+		    <tr><td>[南非] Cape Town 开普敦</td><td><span id="Clockk76"></span></td>
+		    </tr>
+		    <tr><td>[保加利亚] Sofia 索非亚</td><td><span id="Clockk77"></span></td>
+		    </tr>
+		    <tr><td>[希腊] Athens 雅典城</td><td><span id="Clockk78"></span></td>
+		    </tr>
+		    <tr><td>[爱沙尼亚] Tallinn 塔林</td><td><span id="Clockk79"></span></td>
+		    </tr>
+		    <tr><td>[芬兰] Helsinki 赫尔辛基</td><td><span id="Clockk80"></span></td>
+		    </tr>
+		    <tr><td>[罗马尼亚] Bucharest 布加勒斯特</td><td><span id="Clockk81"></span></td>
+		    </tr>
+		    <tr><td>[白俄罗斯] Minsk 明斯克</td><td><span id="Clockk82"></span></td>
+		    </tr>
+		    <tr><td>[南非] Johannesburg 约翰尼斯堡</td><td><span id="Clockk83"></span></td>
+		    </tr>
+		    <tr><td>[土耳其] Istanbul 伊斯坦布尔</td><td><span id="Clockk84"></span></td>
+		    </tr>
+		    <tr><td>[乌克兰] Kyiv 基辅</td><td><span id="Clockk85"></span></td>
+		    </tr>
+		    <tr><td>[乌克兰] Odesa 敖德萨</td><td><span id="Clockk86"></span></td>
+		    </tr>
+		    <tr><td>[津巴布韦] Harare 哈拉雷</td><td><span id="Clockk87"></span></td>
+		    </tr>
+		    <tr><td>[埃及] Cairo 开罗</td><td><span id="Clockk88"></span></td>
+		    </tr>
+		    <tr><td>[土耳其] Ankara 安卡拉</td><td><span id="Clockk89"></span></td>
+		    </tr>
+		    <tr><td>[以色列] Jerusalem 耶路撒冷</td><td><span id="Clockk90"></span></td>
+		    </tr>
+		    <tr><td>[黎巴嫩] Beirut 贝鲁特</td><td><span id="Clockk91"></span></td>
+		    </tr>
+		    <tr><td>[约旦] Amman 安曼</td><td><span id="Clockk92"></span></td>
+		    </tr>
+		    <tr><td>[苏丹] Khartoum 喀土穆</td><td><span id="Clockk93"></span></td>
+		    </tr>
+		    <tr><td>[肯尼亚] Nairobi 内罗毕</td><td><span id="Clockk94"></span></td>
+		    </tr>
+		    <tr><td>[俄罗斯] Moscow 莫斯科</td><td><span id="Clockk95"></span></td>
+		    </tr>
+		    <tr><td>[埃塞俄比亚] Addis Ababa 亚的斯亚贝巴</td><td><span id="Clockk96"></span></td>
+		    </tr>
+		    <tr><td>[伊拉克] Baghdad 巴格达</td><td><span id="Clockk97"></span></td>
+		    </tr>
+		    <tr><td>[也门] Aden 亚丁</td><td><span id="Clockk98"></span></td>
+		    </tr>
+		    <tr><td>[沙特阿拉伯] Riyadh 利雅得</td><td><span id="Clockk99"></span></td>
+		    </tr>
+		    <tr><td>[马达加斯加] Antananarivo 安塔那那利佛</td><td><span id="Clockk100"></span></td>
+		    </tr>
+		    <tr><td>[科威特] Kuwait City 科威特城</td><td><span id="Clockk101"></span></td>
+		    </tr>
+		    <tr><td>[伊朗] Tehran 德黑兰</td><td><span id="Clockk102"></span></td>
+		    </tr>
+		    <tr><td>[阿拉伯联合酋长国] Abu Dhabi 阿布扎比</td><td><span id="Clockk103"></span></td>
+		    </tr>
+		    <tr><td>[阿富汗] Kabul 喀布尔</td><td><span id="Clockk104"></span></td>
+		    </tr>
+		    <tr><td>[巴基斯坦] Karachi 卡拉奇</td><td><span id="Clockk105"></span></td>
+		    </tr>
+		    <tr><td>[乌兹别克斯坦] Tashkent 塔什干</td><td><span id="Clockk106"></span></td>
+		    </tr>
+		    <tr><td>[巴基斯坦] Islamabad 伊斯兰堡</td><td><span id="Clockk107"></span></td>
+		    </tr>
+		    <tr><td>[巴基斯坦] Lahore 拉合尔</td><td><span id="Clockk108"></span></td>
+		    </tr>
+		    <tr><td>[印度] Mumbai 孟买</td><td><span id="Clockk109"></span></td>
+		    </tr>
+		    <tr><td>[印度] New Delhi 新德里</td><td><span id="Clockk110"></span></td>
+		    </tr>
+		    <tr><td>[印度] Kolkata 柯尔喀塔</td><td><span id="Clockk111"></span></td>
+		    </tr>
+		    <tr><td>[尼泊尔] Kathmandu 加德满都</td><td><span id="Clockk112"></span></td>
+		    </tr>
+		    <tr><td>[孟加拉] Dhaka 达卡</td><td><span id="Clockk113"></span></td>
+		    </tr>
+		    <tr><td>[缅甸] Yangon 仰光</td><td><span id="Clockk114"></span></td>
+		    </tr>
+		    <tr><td>[柬埔寨] Phnom Penh 金边</td><td><span id="Clockk115"></span></td>
+		    </tr>
+		    <tr><td>[泰国] Bangkok 曼谷</td><td><span id="Clockk116"></span></td>
+		    </tr>
+		    <tr><td>[越南] Hanoi 河内</td><td><span id="Clockk117"></span></td>
+		    </tr>
+		    <tr><td>[印尼] Jakarta 雅加达</td><td><span id="Clockk118"></span></td>
+		    </tr>
+		    <tr><td>[马来西亚] Kuala Lumpur 吉隆坡</td><td><span id="Clockk119"></span></td>
+		    </tr>
+		    <tr><td>[新加坡] Singapore 新加坡</td><td><span id="Clockk120"></span></td>
+		    </tr>
+		    <tr><td>[中国] Hong Kong 香港</td><td><span id="Clockk121"></span></td>
+		    </tr>
+		    <tr><td>[澳大利亚] Perth 珀斯</td><td><span id="Clockk122"></span></td>
+		    </tr>
+		    <tr><td>[中国] Beijing 北京</td><td><span id="Clockk123"></span></td>
+		    </tr>
+		    <tr><td>[菲律宾] Manila 马尼拉</td><td><span id="Clockk124"></span></td>
+		    </tr>
+		    <tr><td>[中国] Shanghai 上海</td><td><span id="Clockk125"></span></td>
+		    </tr>
+		    <tr><td>[中国] Taipei 台北</td><td><span id="Clockk126"></span></td>
+		    </tr>
+		    <tr><td>[韩国] Seoul 首尔(汉城)</td><td><span id="Clockk127"></span></td>
+		    </tr>
+		    <tr><td>[日本] Tokyo 东京</td><td><span id="Clockk128"></span></td>
+		    </tr>
+		    <tr><td>[澳大利亚] Darwin 达尔文</td><td><span id="Clockk129"></span></td>
+		    </tr>
+		    <tr><td>[俄罗斯] Vladivostok 符拉迪沃斯托克(海参崴)</td><td><span id="Clockk130"></span></td>
+		    </tr>
+		    <tr><td>[澳大利亚] Brisbane 布里斯班</td><td><span id="Clockk131"></span></td>
+		    </tr>
+		    <tr><td>[澳大利亚] Melbourne 墨尔本</td><td><span id="Clockk132"></span></td>
+		    </tr>
+		    <tr><td>[澳大利亚] Canberra 堪培拉</td><td><span id="Clockk133"></span></td>
+		    </tr>
+		    <tr><td>[澳大利亚] Sydney 悉尼</td><td><span id="Clockk134"></span></td>
+		    </tr>
+		    <tr><td>[澳大利亚] Adelaide 亚特雷德</td><td><span id="Clockk135"></span></td>
+		    </tr>
+		    <tr><td>[俄罗斯] Kamchatka 堪察加</td><td><span id="Clockk136"></span></td>
+		    </tr>
+		    <tr><td>[俄罗斯] Anadyr 阿纳德尔</td><td><span id="Clockk137"></span></td>
+		    </tr>
+		    <tr><td>[斐济] Suva 苏瓦</td><td><span id="Clockk138"></span></td>
+		    </tr>
+		    <tr><td>[新西兰] Wellington 惠灵顿</td><td><span id="Clockk139"></span></td>
+		    </tr>
+		    <tr><td>[新西兰] Chatham Island 查塔姆群岛</td><td><span id="Clockk140"></span></td>
+		    </tr>
+		    <tr><td>[基里巴斯] Kiritimati 圣诞岛</td><td><span id="Clockk141"></span></td>
+		    </tr>
+		</table>
+	</div>
+</script>

@@ -1,0 +1,18 @@
+<div ng-controller="testTabCtrl">
+    <div class="col-md-8 btn-group" data-toggle="buttons">
+        <label class="btn btn-tab ph-20 active" ng-click="findOrder()">
+            <input type="radio" id="order_all" name="orderstate" value="1"/>全部订单
+        </label>
+        <label class="btn btn-tab ph-20" ng-click="findOrder(-1)">
+            <input type="radio" id="order_obligation" name="orderstate" value="2"/>待取货
+            <span class="font-red">(2)</span>
+        </label>
+        <label class="btn btn-tab ph-20" ng-click="findOrder(1)">
+            <input type="radio" id="order_nrcy" name="orderstate" value="3"/>进行中
+        </label>
+        <label class="btn btn-tab ph-20" ng-click="findOrder(2)">
+            <input type="radio" id="order_finish" name="orderstate" value="4"/>已完成
+        </label>
+
+    </div>
+</div>

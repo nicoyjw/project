@@ -1,0 +1,16 @@
+<div ng-controller="testIndexCtrl">
+    <h2>几种跳转，传参</h2>
+
+    <h3>除State 跳转传参外，其他传参形式 参数被获取后销毁（可通过设置isCache 长久保持）</h3>
+
+    <div class="row">
+        <button type="button" class="btn btn btn-primary" ng-click="stategoto()">State跳转(uiRoute提供)
+        </button>
+
+        <button type="button" class="btn btn btn-primary" ng-click="uigoto()">UI跳转(hls实现)
+        </button>
+
+        <button type="button" class="btn btn btn-primary" ng-click="setparam()">设置参数(hls实现)
+        </button>
+    </div>
+</div>

@@ -1,0 +1,5 @@
+<div class="articleIndex-wr text-center" ng-controller="articleIndexCtrl" block-ui="articleBlock">
+	<h3 class="pt10" ng-bind="lang=='cn'?article.title:article.title_english"></h3>
+	<p class="fs-12" ng-bind="article.created_time*1000 | date:'yyyy-MM-dd hh:mm:ss'"></p>
+	<div id="content" class="content mt25"></div>
+</div>

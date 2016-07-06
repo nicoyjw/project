@@ -1,0 +1,47 @@
+<div class="userLogin-wr" ng-controller="userLoginCtrl">
+	<img ng-src="{{logoImages.loginBg}}" class="ul-bg">
+	<div class="ul-login">
+		<div class="title text-center mb20 fs-20" ng-bind="'账户登录'|T"></div>
+		<form name="loginForm" ng-submit="formSubmit()" novalidate>
+			<div class="form-group">
+				<label class="control-label" for="name">
+				    <small ng-bind="'用户名或Email'|T"></small>
+				</label>
+				<input type="text" class="form-control" name="name" id="name" ng-model="user.name"
+				       required placeholder="请输入用户名或Email"
+				       autocomplete="off">
+                <div class="error-messages"
+                	ng-if="interacted(loginForm.name)"
+                    ng-messages="loginForm.name.$error"
+                    ng-messages-include="./views/template/ng.message.html">
+                </div>
+			</div>
+			<div class="form-group clear">
+				<label class="control-label" for="password">
+				    <small ng-bind="'密码'|T"></small>
+				</label>
+				<input type="password" class="form-control" id="password" name="password" placeholder="请输入密码"
+				       ng-model="user.password"
+				       required>
+				<div class="error-messages"
+                   ng-if="interacted(loginForm.password)"
+                   ng-messages="loginForm.password.$error"
+                   ng-messages-include="./views/template/ng.message.html">
+                </div>
+			</div>
+			<div class="form-group">
+				<button type="submit" class="yltd-btn yltd-btn-primary disib yltd-w-100 mt10" ng-bind="'登录'|T"></button>
+			</div>
+			<div class="form-group">
+				<div class="fs-12 text-danger font-w" ng-bind="error"></div>
+			</div>
+		</form>
+		<!-- <div class="quick-login">
+			<span class="vam">一键登录:</span>
+			<a href="javascript:;" class="qq-icon ml5" title="qq登录"><i class="fa fa-qq fs-20 vam" aria-hidden="true"></i></a>
+		</div> -->
+		<div class="reg fs-13">
+			<a href="#/user/register" class="yltd-a" ng-bind="'还没有账号马上注册'|T"></a>
+		</div>
+	</div>
+</div>

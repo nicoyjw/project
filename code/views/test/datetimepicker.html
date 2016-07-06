@@ -1,0 +1,23 @@
+<div ng-controller="testDateCtrl">
+    <div class="container-fluid form-horizontal">
+        <h3>日期时间控件示例</h3>
+        <br/>
+        <div class="row">
+            <div class="col-md-4">
+                <hls-datetimepicker select-model="dateFormatting"></hls-datetimepicker>
+                选择值：{{dateFormatting}}
+            </div>
+            <div class="col-md-4 col-md-offset-1">
+                <hls-datetimepicker select-model="dateFormatting1" select-mode="time"></hls-datetimepicker>
+                选择值：{{dateFormatting1}}
+            </div>
+        </div>
+        <br/>
+
+        <div class="row">
+            <div class="col-md-4">
+                <input type="button" class="btn" value="当前时间" ng-click="setDate()"/>
+            </div>
+        </div>
+    </div>
+</div>

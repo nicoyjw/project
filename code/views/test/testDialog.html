@@ -1,0 +1,18 @@
+<div class="container">
+    <input type="checkbox" ng-model="isAllChecked" ng-change="checkAllChange()">全选
+    <br>
+
+    <div ng-repeat="item in prodects">
+        <inpu type="checkbox" ng-model="item.isCheck" ng-change="itemChackChange()"/>
+        <span ng-bind="item.name"></span>
+    </div>
+
+    <button type="button" class="btn btn btn-primary" ng-click="getParams()">获取参数
+    </button>
+
+    <button type="button" class="btn btn btn-primary" ng-click="closedialog()">关闭并传参
+    </button>
+
+    <button type="button" class="btn btn btn-primary" ng-click="close()">关闭
+    </button>
+</div>

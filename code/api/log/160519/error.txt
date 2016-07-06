@@ -1,0 +1,32 @@
+2016-05-19 14:09:58 0558993
+index.php->line:17->call :log_error
+Failed to connect to: 202.104.151.209:27017: Remote server has closed the connection
+
+2016-05-19 14:09:58 0558989
+index.php->line:17->call :log_error
+Failed to connect to: 202.104.151.209:27017: Remote server has closed the connection
+
+2016-05-19 14:09:59 055917
+index.php->line:17->call :log_error
+Failed to connect to: 202.104.151.209:27017: Remote server has closed the connection
+
+2016-05-19 14:10:16 0516881
+index.php->line:17->call :log_error
+Failed to connect to: 202.104.151.209:27017: Remote server has closed the connection
+
+2016-05-19 14:10:19 0519291
+index.php->line:17->call :log_error
+Failed to connect to: 202.104.151.209:27017: Remote server has closed the connection
+
+2016-05-19 17:02:13 0513439
+index.php->line:17->call :log_error
+Failed to connect to: 202.104.151.209:27017: Remote server has closed the connection
+
+2016-05-19 17:02:13 0513480
+index.php->line:17->call :log_error
+Failed to connect to: 202.104.151.209:27017: Remote server has closed the connection
+
+2016-05-19 17:02:13 0513629
+index.php->line:17->call :log_error
+Failed to connect to: 202.104.151.209:27017: Remote server has closed the connection
+

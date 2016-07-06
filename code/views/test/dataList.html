@@ -1,0 +1,8 @@
+<div ng-controller="testDataListCtrl">
+    输入关联
+    <input class="form-control" type="text" list="nameList"/>
+
+    <datalist id="nameList">
+        <option ng-repeat="name in nameData" value="{{name}}"></option>
+    </datalist>
+</div>

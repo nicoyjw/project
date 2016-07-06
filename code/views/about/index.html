@@ -1,0 +1,11 @@
+<div class="aboutIndex-wr p-bet clear" ng-controller="aboutIndexCtrl">
+	<ul class="ai-category fl">
+		<li class="mb15" ng-repeat="item in about.list" ng-bind="lang=='cn'?item.title:item.title_english" ng-class="{'active':about.active==$index}" ng-click="cutAbout(item,$index)"></li>
+	</ul>
+
+
+	<div class="ai-content fr clear" block-ui="contentBlock">
+		<img ng-src="{{logoImages.aboutus}}">
+		<div class="article" id="article"></div>		
+	</div>
+</div>

@@ -1,0 +1,20 @@
+<div class="newsIndex-wr p-bet clear" ng-controller="newsIndexCtrl">
+	<ul class="ni-category fl">
+		<li class="mb15" ng-repeat="item in news.category" ng-bind="lang=='cn'?item.classifyName:item.classifyName_english" ng-class="{'active':news.active==$index}" ng-click="cutNews(item,$index)"></li>
+	</ul>
+	<div class="ni-newsList fr clear" block-ui="newsListBlock">
+		<ul>
+			<li class="item" ng-repeat="item in news.lists">
+				<a href="#/article/index?id={{item._id.$id}}" class="yltd-a clear" ng-class="{'pt0': $index=0}">
+					<span class="fl yltd-w-80 title" ng-bind="lang=='cn'?item.title:item.title_english"></span>
+					<span class="fr yltd-w-20 time text-right" ng-bind="item.created_time*1000 | date:'yyyy-MM-dd hh:mm:ss'"></span>
+				</a>
+			</li>
+		</ul>
+
+		<div>
+			<hls-pagination total-items="totalItems" ng-model="currentPage" class="pagination-sm"
+							ng-change="pageChange(currentPage)"></hls-pagination>
+		</div>
+	</div>
+</div>

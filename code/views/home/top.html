@@ -1,0 +1,25 @@
+<div ng-controller="homeTopCtrl" class="homeTop-wr p-bet clear">
+    <div class="l-wr fl">
+    	<!-- <a href="javascript:;" class="yltd-a" ng-bind="'收藏本站'|T"></a> -->
+    </div>
+    <div class="r-wr fr text-right" ng-include="loginPage"></div>
+</div>
+
+<script type="text/ng-template" id="noLogin.html">
+	<span ng-bind="'欢迎'|T"></span>	
+	&emsp;
+	<a href="#/user/login" class="yltd-a" ng-bind="'登录'|T"></a> |
+	<a href="#/user/register" class="yltd-a" ng-bind="'注册'|T"></a>   
+	&emsp;&emsp;
+	<a href="javascript:;" class="yltd-a" ng-click="switchLang('cn')" ng-bind="'中文'|T"></a> /
+	<a href="javascript:;" class="yltd-a" ng-click="switchLang('en')">English</a>
+</script>
+
+<script type="text/ng-template" id="isLogin.html">
+    <span><i ng-bind="'欢迎2'|T"></i><i class="fa fa-user fa-lg yltd-text-p" aria-hidden="true"></i>&nbsp;<b class="yltd-text-p" ng-bind="userInfo.name"></b></span>  
+    &emsp;&nbsp;
+    <a href="javascript:;" class="yltd-a" ng-click="logout()" ng-bind="'退出登录'|T"></a>   
+    &emsp;&emsp;
+    <a href="javascript:;" class="yltd-a" ng-click="switchLang('cn')" ng-bind="'中文'|T"></a> /
+    <a href="javascript:;" class="yltd-a" ng-click="switchLang('en')">English</a>
+</script>

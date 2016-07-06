@@ -1,0 +1,167 @@
+<div ng-controller="testMyFormValidateCtrl">
+    <form name="testValidateForm" class="container-fluid">
+        <div>
+            <h2><strong>基本验证信息</strong></h2>
+        </div>
+        <hr/>
+        <div class="container-fluid form-horizontal">
+            <div class="row">
+                <label class="control-label col-md-1">必输项设置</label>
+
+                <div class="col-md-3">
+                    <input type="text" name="Name" class="form-control " placeholder="必输项设置" ng-model="user.Name"
+                           required dir-directive-ext/>
+                </div>
+            </div>
+            <div class="row">
+                <label class="control-label col-md-1">密码</label>
+
+                <div class="col-md-3">
+                    <input type="password" name="password" class="form-control" placeholder="密码"
+                           ng-model="user.Password"
+                           required requiredmsg="请输入密码"
+                           ng-minlength="6" minlengthmsg="密码最小长度为6位" dir-directive-ext>
+                </div>
+                <label class="control-label col-md-1">确认密码</label>
+
+                <div class="col-md-3">
+                    <input type="password" name="confirmpassword" class="form-control" placeholder="确认密码"
+                           ng-model="confirmPassword" required requiredmsg="请再次输入密码"
+                           ng-minlength="6" minlengthmsg="密码最小长度为6位" dir-equal="password" direqualmsg="两次输入密码不相等"
+                           dir-directive-ext>
+                </div>
+            </div>
+            <div class="row">
+                <label class="control-label col-md-1">邮件格式</label>
+
+                <div class="col-md-3">
+                    <input type="email" name="email" class="form-control" placeholder="邮件" ng-model="user.Email"
+                           emailmsg="邮件格式错误" dir-directive-ext>
+                </div>
+            </div>
+            <div class="row">
+                <label class="control-label col-md-1">URL</label>
+
+                <div class="col-md-3">
+                    <input type="url" name="url" class="form-control" placeholder="URL" ng-model="user.Url"
+                           urlmsg="Url格式错误"
+                           dir-directive-ext>
+                </div>
+            </div>
+            <div class="row">
+                <label class="control-label col-md-1">Pattern</label>
+
+                <div class="col-md-3">
+                    <input type="text" name="pattern" class="form-control" placeholder="Pattern：/^a[0-9|a-z|A-Z]*b$/"
+                           ng-model="user.Pattern" ng-pattern="mypattern" patternmsg="Pattern格式错误：/^a[0-9|a-z|A-Z]*b$/"
+                           dir-directive-ext>
+                </div>
+                <label class="control-label col-md-2">Pattern：^a[0-9|a-z|A-Z]*b$</label>
+            </div>
+            <div class="row">
+                <label class="control-label col-md-1">正整数</label>
+
+                <div class="col-md-3">
+                    <input type="text" name="NumValue" class="form-control " placeholder="正整数" ng-model="user.NumValue"
+                           dir-num dirnummsg="numer required" dir-directive-ext/>
+                </div>
+            </div>
+            <div class="row">
+                <label class="control-label col-md-1">Float</label>
+
+                <div class="col-md-3">
+                    <input type="text" name="FloatValue" class="form-control " placeholder="Float"
+                           ng-model="user.FloatValue" dir-float dirfloatmsg="float required" dir-directive-ext/>
+                </div>
+            </div>
+            <div class="row">
+                <label class="control-label col-md-1">Number</label>
+
+                <div class="col-md-3">
+                    <input type="number" name="numberValue" class="form-control " placeholder="Number"
+                           ng-model="user.numberValue" numbermsg="number required" dir-directive-ext/>
+                </div>
+            </div>
+            <div class="row">
+                <label class="control-label col-md-1">最小值</label>
+
+                <div class="col-md-3">
+                    <input type="number" name="MinValue" class="form-control " placeholder="最小值：10"
+                           ng-model="user.MinValue"
+                           min="10" minmsg="min value is 10" dir-directive-ext/>
+                </div>
+                <label class="control-label col-md-2">最小值：10</label>
+            </div>
+            <div class="row">
+                <label class="control-label col-md-1">最大值</label>
+
+                <div class="col-md-3">
+                    <input type="number" name="MaxValue" class="form-control " placeholder="最大值：100"
+                           ng-model="user.MaxValue" max="100" maxmsg="max value is 100" dir-directive-ext/>
+                </div>
+                <label class="control-label col-md-2">最大值：100</label>
+            </div>
+            <div class="row">
+                <label class="control-label col-md-1">数值范围</label>
+
+                <div class="col-md-3">
+                    <input type="text" name="RangeValue" class="form-control " placeholder="数值范围[5，20]"
+                           ng-model="user.RangeValue" dir-range="5,20" dirrangemsg="range error [5，20]"
+                           dir-directive-ext/>
+                </div>
+                <label class="control-label col-md-2">数值范围[5，20]</label>
+            </div>
+            <div class="row">
+                <label class="control-label col-md-1">最小长度</label>
+
+                <div class="col-md-3">
+                    <input type="text" name="MinLength" class="form-control " placeholder="最小长度：5"
+                           ng-model="user.MinLength"
+                           ng-minlength="5" minlengthmsg="最小长度为5" dir-directive-ext/>
+                </div>
+                <label class="control-label col-md-2">最小长度：5</label>
+            </div>
+            <div class="row">
+                <label class="control-label col-md-1">最大长度</label>
+
+                <div class="col-md-3">
+                    <input type="text" name="MaxLength" class="form-control " placeholder="最大长度：9"
+                           ng-model="user.MaxLength"
+                           ng-maxlength="9" maxlengthmsg="最大长度为9" dir-directive-ext/>
+                </div>
+                <label class="control-label col-md-2">最大长度：9</label>
+            </div>
+            <div class="row">
+                <label class="control-label col-md-1">输入长度</label>
+
+                <div class="col-md-3">
+                    <input type="text" name="RangeLengthValue" class="form-control " placeholder="输入长度[6，18]"
+                           ng-model="user.RangeLengthValue" dir-rangelength="6,18"
+                           dirrangelengthmsg="range length error [6，18]" dir-directive-ext/>
+                </div>
+                <label class="control-label col-md-2">输入长度[6，18]</label>
+            </div>
+            <div class="row">
+                <label class="control-label col-md-1">值是否有效</label>
+
+                <div class="col-md-3">
+                    <input type="text" name="KeyValidValue" class="form-control "
+                           placeholder="值是否有效(User Account测试，250 API测试)" ng-model="user.KeyValidValue" dir-key-valid
+                           dirkeyvalidmsg="该值已经存在" key-valid-fn="checkKeyValid(input)" dir-directive-ext/>
+                </div>
+                <label class="control-label col-md-8">http://192.168.111.250:8009/api/Security/User/CheckUserAccountValid,通过输入存在和不存在的账号进行测试</label>
+            </div>
+        </div>
+        <div>
+            <div class="pull-right btn-lg">
+                <button type="button" class="btn btn-default" ng-click="cancel()">
+                    <span class="glyphicon glyphicon-remove text-danger"></span> 取消
+                </button>
+                <button type="commit" class="btn btn-default" ng-disabled="testValidateForm.$invalid" ng-click="save()">
+                    <span class="glyphicon glyphicon-ok text-success"></span> 保存
+                </button>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </form>
+</div>

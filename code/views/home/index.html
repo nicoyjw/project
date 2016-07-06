@@ -1,0 +1,110 @@
+<div class="homeIndex-wr" ng-controller="homeIndexCtrl">
+	<!-- 衍生功能start -->
+    <section>
+		<div class="func-wr p-bet text-center">
+			<a class="item trans1" href="#/derivative/index?page=freight">
+				<div class="icon">
+					<span class="fa-out"><i class="fa fa-jpy" aria-hidden="true"></i></span>
+				</div>
+				<span ng-bind="'运费试算'|T"></span>
+			</a>
+			<a class="item trans1" href="#/derivative/index?page=exchangeRate">
+				<div class="icon">
+					<span class="fa-out"><i class="fa fa-usd" aria-hidden="true"></i><i class="fa fa-jpy" aria-hidden="true"></i></span>
+				</div>
+				<span ng-bind="'最新汇率'|T"></span>
+			</a>
+			<a class="item trans1" href="#/derivative/index?page=worldTime">
+				<div class="icon">
+					<span class="fa-out"><i class="clock-icon"></i></span>
+				</div>
+				<span ng-bind="'世界时间'|T"></span>
+			</a>
+		</div>
+    </section>
+    <!-- 衍生功能end -->
+
+	<!-- 主要功能start -->
+    <section>
+	    <div class="leader-wr clear p-bet">
+	    	<!-- 新闻展示start -->
+			<div class="r1-l fl newsList-wr">
+				<ul class="menu clear">
+					<li class="menu-item fl" ng-repeat="cate_item in news.category" ng-if="$index<4" ng-click="cutNews(cate_item)" ng-class="{'menu-item-en':lang=='en'}">
+						<input type="radio" name="news-active" value="0" ng-checked="$index==0">
+						<span class="text" ng-bind="lang=='cn'?cate_item.classifyName:cate_item.classifyName_english"></span>
+						<ul class="content" shutters block-ui="newsListBlock" ng-class="{'content-en':lang=='en'}">
+							<li ng-show="news.lists[1]">
+								<div class="cover">
+									<a ng-href="#/article/index?id={{news.lists[1]._id.$id}}" class="clear yltd-a"><span class="title" ng-bind="lang=='cn'?news.lists[1].title:news.lists[1].title_english|contentSubstr:25"></span><span class="time" ng-bind="news.lists[1].created_time*1000 | date:'yyyy-MM-dd'"></span></a>
+									<a ng-href="#/article/index?id={{news.lists[0]._id.$id}}" class="clear yltd-a"><span class="title" ng-bind="lang=='cn'?news.lists[0].title:news.lists[0].title_english|contentSubstr:25"></span><span class="time" ng-bind="news.lists[0].created_time*1000 | date:'yyyy-MM-dd'"></span></a>
+								</div>
+							</li>
+							<li ng-show="news.lists[3]">
+								<div class="cover">
+									<a ng-href="#/article/index?id={{news.lists[3]._id.$id}}" class="clear yltd-a"><span class="title" ng-bind="lang=='cn'?news.lists[3].title:news.lists[3].title_english|contentSubstr:25"></span><span class="time" ng-bind="news.lists[3].created_time*1000 | date:'yyyy-MM-dd'"></span></a>
+									<a ng-href="#/article/index?id={{news.lists[2]._id.$id}}" class="clear yltd-a"><span class="title" ng-bind="lang=='cn'?news.lists[2].title:news.lists[2].title_english|contentSubstr:25"></span><span class="time" ng-bind="news.lists[2].created_time*1000 | date:'yyyy-MM-dd'"></span></a>
+								</div>
+							</li>
+							<li ng-show="news.lists[5]">
+								<div class="cover">
+									<a ng-href="#/article/index?id={{news.lists[5]._id.$id}}" class="clear yltd-a"><span class="title" ng-bind="lang=='cn'?news.lists[5].title:news.lists[5].title_english|contentSubstr:25"></span><span class="time" ng-bind="news.lists[5].created_time*1000 | date:'yyyy-MM-dd'"></span></a>
+									<a ng-href="#/article/index?id={{news.lists[4]._id.$id}}" class="clear yltd-a"><span class="title" ng-bind="lang=='cn'?news.lists[4].title:news.lists[4].title_english|contentSubstr:25"></span><span class="time" ng-bind="news.lists[4].created_time*1000 | date:'yyyy-MM-dd'"></span></a>
+								</div>
+							</li>
+							<li ng-show="news.lists[7]">
+								<div class="cover">
+									<a ng-href="#/article/index?id={{news.lists[7]._id.$id}}" class="clear yltd-a"><span class="title" ng-bind="lang=='cn'?news.lists[7].title:news.lists[7].title_english|contentSubstr:25"></span><span class="time" ng-bind="news.lists[7].created_time*1000 | date:'yyyy-MM-dd'"></span></a>
+									<a ng-href="#/article/index?id={{news.lists[6]._id.$id}}" class="clear yltd-a"><span class="title" ng-bind="lang=='cn'?news.lists[6].title:news.lists[6].title_english|contentSubstr:25"></span><span class="time" ng-bind="news.lists[6].created_time*1000 | date:'yyyy-MM-dd'"></span></a>
+								</div>
+							</li>
+							<li ng-show="news.lists[9]">
+								<div class="cover">
+									<a ng-href="#/article/index?id={{news.lists[9]._id.$id}}" class="clear yltd-a"><span class="title" ng-bind="lang=='cn'?news.lists[9].title:news.lists[9].title_english|contentSubstr:25"></span><span class="time" ng-bind="news.lists[9].created_time*1000 | date:'yyyy-MM-dd'"></span></a>
+									<a ng-href="#/article/index?id={{news.lists[8]._id.$id}}" class="clear yltd-a"><span class="title" ng-bind="lang=='cn'?news.lists[8].title:news.lists[8].title_english|contentSubstr:25"></span><span class="time" ng-bind="news.lists[8].created_time*1000 | date:'yyyy-MM-dd'"></span></a>
+								</div>
+							</li>
+						</ul>
+					</li>
+				</ul>
+				<div class="more-wr">
+					<a href="#/news/index" class="yltd-btn yltd-btn-default yltd-btn-sm" ng-bind="'查看更多'|T"></a>
+				</div>
+			</div>
+			<!-- 新闻展示end -->
+
+			<!-- 搜索start -->
+			<div class="r1-r fr search-wr text-center">
+				<img ng-src="{{logoImages.seekBg}}" class="search-bg">
+				<h2 class="mt25 search-top"><span ng-bind="'搜索称呼'|T"></span><i class="fa fa-search fs-22 vam ml15" aria-hidden="true"></i></h2>
+				<p class="mt10 mb25 search-top" ng-bind="'搜索口号'|T"></p>
+				<form name="search" class="search-top">
+					<input type="text" class="search">
+				</form>
+			</div>
+			<!-- 搜索end -->
+	    </div>
+    </section>
+
+    <section>
+		<div class="showcase p-bet clear">
+			<!-- 广告start -->
+			<div class="ads fl" block-ui="adsBlock">
+				<div class="item" ng-repeat="item in ads"><a ng-href="{{item.url}}" alt="{{lang=='cn'?item.title:item.title_english}}" title="{{lang=='cn'?item.title:item.title_english}}" target="_blank"><img ng-src="{{item.coverImg}}"></a></div>
+			</div>
+			<!-- 广告end -->
+
+			<!-- 物流分类展示start -->
+			<div class="category fr" block-ui="categoryBlock">
+				<div class="item clear" ng-repeat="item in logistics.category">
+					<div class="title fl" ng-bind="lang=='cn'?item.classifyName:item.classifyName_english"></div>
+					<div class="links fr">
+						<a ng-href="{{list_item.url}}" alt="{{lang=='cn'?list_item.title:list_item.title_english}}" title="{{lang=='cn'?list_item.title:list_item.title_english}}" target="_blank" ng-repeat="list_item in logistics.lists" ng-if="list_item.pid==item._id.$id"><img src="{{list_item.coverImg}}"></a>
+					</div>
+				</div>
+			</div>
+			<!-- 物流分类展示end -->
+		</div>
+    </section>
+    <!-- 主要功能end -->
+</div>

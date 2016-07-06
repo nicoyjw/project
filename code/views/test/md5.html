@@ -1,0 +1,28 @@
+<div ng-controller="testmd5Ctrl">
+    <div class="container-fluid form-horizontal">
+        <div class="row">
+            <label class="control-label col-md-1">字符串</label>
+            <div class="col-md-3">
+                <input type="text" name="Name" class="form-control " ng-model="str"/>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6">
+                <dd>本地Escape:{{escapeStr}}</dd>
+                <dd>本地加密:{{md5str}}</dd>
+            </div>
+            <div class="col-md-6">
+                <dd>服务器结果:{{sstr}}</dd>
+                <dd>服务器结果:{{smd5str}}</dd>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 text-center">
+                <button type="button" class="btn btn-default" ng-click="md5()">
+                    <span>MD5加密</span>
+                </button>
+            </div>
+        </div>
+    </div>
+</div>

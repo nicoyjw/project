@@ -1,0 +1,39 @@
+<div ng-controller="areaTestCtrl">
+    <div class="row">
+        <div class="col-sm-1">城市：</div>
+        <div class="col-sm-2">
+            <hls-city hls-data="cityData" hls-class="form-control input-lg" hls-placeholder="请选择城市"></hls-city>
+        </div>
+        <div class="col-sm-1">国家：</div>
+        <div class="col-sm-2">
+            <hls-country hls-class="form-control input-lg" hls-data='countryData'></hls-country>
+        </div>
+
+    </div>
+
+    <hr/>
+    <div class="row">
+        <div class="col-sm-2">
+            双向绑定结果：
+        </div>
+        <div class="col-sm-2">
+            城市:{{cityData.selectedData}}
+        </div>
+        <div class="col-sm-2">
+            国家:{{countryData.selectedData}}
+        </div>
+        <div class="col-sm-2">
+            <input class="btn default-btn" type="button" ng-click="getResult()" value="获取结果">
+        </div>
+    </div>
+    <br>
+    <div class="row">
+        <div class="col-md-2">省市区联动：</div>
+        <div class="col-md-4">
+            <city-select ng-model="item.city"></city-select>
+        </div>
+        <div class="col-md-4">
+            结果：{{item}}
+        </div>
+    </div>
+</div>

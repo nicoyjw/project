@@ -1,0 +1,9 @@
+<div class="container" ng-controller="testCheckAllCtrl">
+    <input type="checkbox" ng-model="isAllChecked" ng-change="checkAllChange()">全选
+    <br>
+
+    <div ng-repeat="item in prodects">
+        <input type="checkbox" ng-model="item.isCheck" ng-change="itemChackChange()"/>
+        <span ng-bind="item.Name"></span>
+    </div>
+</div>

@@ -1,0 +1,26 @@
+<div class="htmleaf-container" ng-controller="testFileUploadCtrl">
+    <div class="container kv-main">
+        <h2>原生组件 异步上传</h2>
+        <form id="testForm">
+            <div class="row">
+                <div class="col-md-5">
+                    <input class="form-control" id="lefile" name="upload" type="file">
+                </div>
+                <div class="col-md-2 text-left">
+                    <input type="button" value="上传" ng-click="uploadFile()">
+                </div>
+            </div>
+
+
+        </form>
+
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <h2>hls封装组件</h2>
+        <hls-upload hls-option="hlsOption"></hls-upload>
+
+    </div>
+</div>

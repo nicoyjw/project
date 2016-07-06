@@ -1,0 +1,92 @@
+<div class="userRegister-wr" ng-controller="userRegisterCtrl">
+	<div class="ur-reg clear">
+		<form name="regForm" class="fl regForm" ng-submit="formSubmit()" novalidate>
+			<div class="title mb20 fs-20 text-center" ng-bind="'账户注册'|T"></div>
+			<div class="form-group">
+				<label class="control-label" for="name">
+				    <small ng-bind="'用户名'|T"></small>
+				</label>
+				<input type="text" class="form-control" name="name" id="name" ng-model="user.name"
+				       required 
+				       autocomplete="off" 
+				       characters-validator="baseMix"
+				       username-characters-validator
+                       remote-record-validator="{type: 'name', url: 'api/?model=user&action=check_exist'}">
+                <div class="error-messages"
+                	ng-if="interacted(regForm.name)"
+                    ng-messages="regForm.name.$error"
+                    ng-messages-include="./views/template/ng.message.html">
+                </div>
+			</div>
+			<div class="form-group">
+				<label class="control-label" for="email">
+				    <small ng-bind="'邮箱'|T"></small>
+				</label>
+				<input type="email" class="form-control" name="email" id="email" ng-model="user.email"
+				       required 
+				       autocomplete="off" 
+                       remote-record-validator="{type: 'email', url: 'api/?model=user&action=check_exist'}">
+                <div class="error-messages" 
+                     ng-if="interacted(regForm.email)" 
+                     ng-messages="regForm.email.$error" 
+                     ng-messages-include="./views/template/ng.message.html">
+                </div>
+			</div>
+			<div class="form-group clear">
+				<label class="control-label" for="password">
+				    <small ng-bind="'密码'|T"></small>
+				</label>
+				<input type="password" class="form-control" id="password" name="password" 
+				       ng-model="user.password"
+				       required ng-minlength="6" 
+				       password-characters-validator>
+				<div class="error-messages"
+                   ng-if="interacted(regForm.password)"
+                   ng-messages="regForm.password.$error"
+                   ng-messages-include="./views/template/ng.message.html">
+                </div>
+			</div>
+			<div class="form-group clear">
+				<label class="control-label" for="confirmPassword">
+				    <small ng-bind="'确认密码'|T"></small>
+				</label>
+				<input type="password" class="form-control" id="confirmPassword" name="confirmPassword"
+				       ng-model="user.confirmPassword" required 
+				       ng-minlength="6" 
+				       password-characters-validator
+                       match-validator="user.password">
+				<div class="error-messages"
+                   ng-if="interacted(regForm.confirmPassword)"
+                   ng-messages="regForm.confirmPassword.$error"
+                   ng-messages-include="./views/template/ng.message.html">
+                </div>
+			</div>
+			<div class="form-group clear">
+				<label for="InputCheckimg" ng-bind="'验证码'|T"></label>
+				<div class="clear checkimg-box posr">
+					<input type="text" class="form-control yltd-w-45 fl" name="checkimg" id="InputCheckimg" ng-model="user.checkimg" 
+						   autocomplete="off"
+						   required>
+					<img ng-src="{{verify}}" alt="验证码" title="验证码" class="disib yltd-w-35 fl ml5">
+					<a href="javascript:;" class="fl ml5 fs-12 change-verify" ng-click="changeVerify()" ng-bind="'换一个'|T"></a>
+				</div>
+				<div class="error-messages"
+                   ng-if="interacted(regForm.checkimg)"
+                   ng-messages="regForm.checkimg.$error"
+                   ng-messages-include="./views/template/ng.message.html">
+                </div>
+			</div>
+			<div class="form-group">
+				<button type="submit" class="yltd-btn yltd-btn-primary disib yltd-w-100 mt15" ng-bind="'立即注册'|T"></button>
+			</div>
+			<div class="text-center mt25 pt10 fs-13">
+				<a href="#/user/login" ng-bind="'已经有账号马上登录'|T"></a>
+			</div>
+		</form>
+		<div class="fr reg-ads">
+			<a ng-href="{{ad.url}}" class="item" title="{{lang=='cn'?ad.title:ad.title_english}}" target="_blank">
+				<img ng-src="{{ad.coverImg}}" alt="{{lang=='cn'?ad.title:ad.title_english}}">
+			</a>
+		</div>
+	</div>
+</div>
