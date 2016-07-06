@@ -1,0 +1,3 @@
+<?php
+	$requestXmlBody = '<?xml version="1.0" encoding="utf-8"?><GetMemberMessagesRequest xmlns="urn:ebay:apis:eBLBaseComponents"><RequesterCredentials><eBayAuthToken>'.$userToken.'</eBayAuthToken></RequesterCredentials><WarningLevel>High</WarningLevel><MailMessageType>All</MailMessageType><MessageStatus>CustomCode</MessageStatus><StartCreationTime>'.$data[start].'</StartCreationTime><EndCreationTime>'.$data[end].'</EndCreationTime><Pagination><EntriesPerPage>199</EntriesPerPage><PageNumber>'.$page.'</PageNumber></Pagination></GetMemberMessagesRequest>';
+?>

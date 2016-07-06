@@ -1,0 +1,76 @@
+10
+
+dir
+15
+svn://127.0.0.1/ygerp/common/lib/ext/resources/images/access
+svn://127.0.0.1
+
+
+
+2013-06-18T03:28:55.206070Z
+4
+admin
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+c80b2ec0-7a08-c643-9bf6-54d60582fb5a
+
+slider
+dir
+
+grid
+dir
+
+editor
+dir
+
+box
+dir
+
+tabs
+dir
+
+sizer
+dir
+
+panel
+dir
+
+tree
+dir
+
+toolbar
+dir
+
+form
+dir
+
+menu
+dir
+
+progress
+dir
+
+shared
+dir
+
+window
+dir
+
+button
+dir
+
+qtip
+dir
+

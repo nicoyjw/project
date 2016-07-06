@@ -1,0 +1,17 @@
+<?php return array (
+  4 => 'bigface1',
+  23 => 'yuke',
+  24 => 'yueke',
+  30 => 'DIVA',
+  36 => 'A_UK',
+  37 => 'A_FR',
+  38 => 'BH_TEST',
+  39 => 'BH_UK',
+  40 => 'BH_US',
+  42 => 'HHP_US',
+  44 => 'opolotech',
+  49 => 'AUR',
+  50 => 'ALEX_US',
+  64 => 'MPAREA UK',
+  65 => 'UK-ceed',
+); ?>

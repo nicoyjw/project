@@ -1,0 +1,8 @@
+<?php
+$currency['USD'] = '6.1714';
+$currency['GBP'] = '9.665';
+$currency['EUR'] = '8.2152';
+$currency['AUD'] = '5.8565';
+$currency['CAD'] = '6.0562';
+$currency['CNY'] = '1';
+?>

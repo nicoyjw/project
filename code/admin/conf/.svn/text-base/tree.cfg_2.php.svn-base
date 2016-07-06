@@ -1,0 +1,29 @@
+<?php
+$trees['400078'][]=array('id' =>'400088','text' =>'模块管理','leaf' =>true,'cls' =>'file','model' =>'menu','action' =>'','root' =>'400078');
+$trees['root'][]=array('id' =>'400078','text' =>'系统','leaf' =>false,'cls' =>'folder','model' =>'','action' =>'','root' =>'root');
+$trees['400079'][]=array('id' =>'400104','text' =>'品牌分类','leaf' =>true,'cls' =>'file','model' =>'goods','action' =>'category','root' =>'400079');
+$trees['400079'][]=array('id' =>'400105','text' =>'新增产品','leaf' =>true,'cls' =>'file','model' =>'goods','action' =>'add','root' =>'400079');
+$trees['400079'][]=array('id' =>'400106','text' =>'产品目录','leaf' =>true,'cls' =>'file','model' =>'goods','action' =>'','root' =>'400079');
+$trees['400079'][]=array('id' =>'400134','text' =>'新增组合产品','leaf' =>true,'cls' =>'file','model' =>'goods','action' =>'addcombine','root' =>'400079');
+$trees['400079'][]=array('id' =>'400128','text' =>'产品导入','leaf' =>true,'cls' =>'file','model' =>'goods','action' =>'import','root' =>'400079');
+$trees['root'][]=array('id' =>'400079','text' =>'产品','leaf' =>false,'cls' =>'folder','model' =>'','action' =>'','root' =>'root');
+$trees['400082'][]=array('id' =>'400097','text' =>'订单加载','leaf' =>true,'cls' =>'file','model' =>'order','action' =>'','root' =>'400082');
+$trees['400082'][]=array('id' =>'400099','text' =>'Paypal校对','leaf' =>true,'cls' =>'file','model' =>'order','action' =>'checkpaypal','root' =>'400082');
+$trees['400082'][]=array('id' =>'400100','text' =>'客服审核','leaf' =>true,'cls' =>'file','model' =>'order','action' =>'servicecheck','root' =>'400082');
+$trees['400082'][]=array('id' =>'400101','text' =>'添加订单','leaf' =>true,'cls' =>'file','model' =>'order','action' =>'add','root' =>'400082');
+$trees['400082'][]=array('id' =>'400102','text' =>'库管审核','leaf' =>true,'cls' =>'file','model' =>'order','action' =>'depotmanager','root' =>'400082');
+$trees['400082'][]=array('id' =>'400167','text' =>'库管缺货E邮宝','leaf' =>true,'cls' =>'file','model' =>'order','action' =>'depoteub','root' =>'400082');
+$trees['400082'][]=array('id' =>'400103','text' =>'订单处理','leaf' =>true,'cls' =>'file','model' =>'order','action' =>'orderhandle','root' =>'400082');
+$trees['400082'][]=array('id' =>'400118','text' =>'出库开单','leaf' =>true,'cls' =>'file','model' =>'order','action' =>'outdepot','root' =>'400082');
+$trees['400082'][]=array('id' =>'400122','text' =>'标记发货','leaf' =>true,'cls' =>'file','model' =>'order','action' =>'markorder','root' =>'400082');
+$trees['400082'][]=array('id' =>'400121','text' =>'所有订单','leaf' =>true,'cls' =>'file','model' =>'order','action' =>'allorder','root' =>'400082');
+$trees['400082'][]=array('id' =>'400119','text' =>'退款订单','leaf' =>true,'cls' =>'file','model' =>'order','action' =>'refund','root' =>'400082');
+$trees['400082'][]=array('id' =>'400120','text' =>'到付收款','leaf' =>true,'cls' =>'file','model' =>'order','action' =>'cod','root' =>'400082');
+$trees['root'][]=array('id' =>'400082','text' =>'销售','leaf' =>false,'cls' =>'folder','model' =>'','action' =>'','root' =>'root');
+$trees['400123'][]=array('id' =>'400125','text' =>'Case&Feedback加载','leaf' =>true,'cls' =>'file','model' =>'Ecase','action' =>'load','root' =>'400123');
+$trees['400123'][]=array('id' =>'400126','text' =>'Case管理','leaf' =>true,'cls' =>'file','model' =>'ecase','action' =>'','root' =>'400123');
+$trees['400123'][]=array('id' =>'400204','text' =>'邮箱设置','leaf' =>true,'cls' =>'file','model' =>'message','action' =>'emailcfg','root' =>'400123');
+$trees['400123'][]=array('id' =>'400205','text' =>'邮件管理','leaf' =>true,'cls' =>'file','model' =>'message','action' =>'','root' =>'400123');
+$trees['400123'][]=array('id' =>'400206','text' =>'客户管理','leaf' =>true,'cls' =>'file','model' =>'customer','action' =>'','root' =>'400123');
+$trees['root'][]=array('id' =>'400123','text' =>'售后','leaf' =>false,'cls' =>'folder','model' =>'','action' =>'','root' =>'root');
+?>

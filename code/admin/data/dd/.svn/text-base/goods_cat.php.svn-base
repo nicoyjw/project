@@ -1,0 +1,13 @@
+<?php return array (
+  7 => 'Arinna Jewelry',
+  9 => 'Bracelet',
+  8 => 'Rings',
+  10 => 'Earrings',
+  11 => 'Brooch',
+  12 => 'Necklace',
+  13 => 'Keyring',
+  14 => 'Hairpin',
+  15 => 'Jewelry Sets',
+  20 => 'Arinna Watches',
+  18 => 'other jewelry',
+); ?>

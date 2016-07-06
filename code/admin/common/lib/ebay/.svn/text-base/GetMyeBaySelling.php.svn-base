@@ -1,0 +1,34 @@
+<?php
+	   $requestXmlBody = '<?xml version="1.0" encoding="utf-8"?> 
+<GetMyeBaySellingRequest xmlns="urn:ebay:apis:eBLBaseComponents">
+  <RequesterCredentials> 
+    <eBayAuthToken>'.$userToken.'</eBayAuthToken> 
+  </RequesterCredentials>
+  <OutputSelector>ActiveList.ItemArray.Item.BuyItNowPrice</OutputSelector>
+  <OutputSelector>ActiveList.ItemArray.Item.ItemID</OutputSelector>
+  <OutputSelector>ActiveList.ItemArray.Item.ListingDetails</OutputSelector>
+  <OutputSelector>ActiveList.ItemArray.Item.ListingDuration</OutputSelector>
+  <OutputSelector>ActiveList.ItemArray.Item.ListingType</OutputSelector>
+  <OutputSelector>ActiveList.ItemArray.Item.PictureDetails</OutputSelector>
+  <OutputSelector>ActiveList.ItemArray.Item.QuantityAvailable</OutputSelector>
+  <OutputSelector>ActiveList.ItemArray.Item.TimeLeft</OutputSelector>
+  <OutputSelector>ActiveList.ItemArray.Item.SellingStatus</OutputSelector>
+  <OutputSelector>ActiveList.ItemArray.Item.ShippingDetails</OutputSelector>
+  <OutputSelector>ActiveList.ItemArray.Item.SKU</OutputSelector>
+  <OutputSelector>ActiveList.ItemArray.Item.StartPrice</OutputSelector>
+  <OutputSelector>ActiveList.ItemArray.Item.Title</OutputSelector>
+  <OutputSelector>ActiveList.ItemArray.Item.Variations.Variation.SKU</OutputSelector>
+  <OutputSelector>ActiveList.ItemArray.Item.Variations.Variation.StartPrice</OutputSelector>
+  <OutputSelector>ActiveList.ItemArray.Item.Variations.Variation.Quantity</OutputSelector>
+  <OutputSelector>ActiveList.ItemArray.Item.Variations.Variation.SellingStatus.QuantitySold</OutputSelector>
+  <OutputSelector>ActiveList.PaginationResult</OutputSelector>
+	<ActiveList>
+    <Sort>StartTimeDescending</Sort>
+	<Include>true</Include>
+    <Pagination>
+      <EntriesPerPage>200</EntriesPerPage>
+      <PageNumber>'.$page.'</PageNumber>
+    </Pagination>
+  </ActiveList>
+  </GetMyeBaySellingRequest>';  
+?>

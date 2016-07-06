@@ -1,0 +1,42 @@
+<!--{include file="header.tpl"}-->
+<script type="text/javascript" src="js/billform.js"></script>
+<script type="text/javascript">
+Ext.onReady(function(){
+var orderinfo = eval(<!--{$order}-->);
+var order_status = [<!--{$order_status}-->];
+var Sales_channels = [<!--{$Sales_channels}-->];
+var stocktype = [<!--{$stockin_type}-->];
+var depot = [<!--{$depot}-->];
+var adminid = <!--{$adminid}-->;
+	var user_action = object_Array([<!--{$user_action}-->]);
+	Ext.QuickTips.init();
+	var StockinForm = Ext.create('Ext.ux.test.billform', {
+		//title: '<center><b>' + ((orderinfo.order_id) ? '编辑入库单' : '新增入库单') + ':' + orderinfo.order_sn + '</b></center>',
+		border: false,
+		labelAlign: 'right',
+		labelWidth: 75,
+		height:500,
+		saveURL: 'index.php?model=stockin&action=save',
+		addURL: 'index.php?model=stockin&action=add',
+		goodsURL: 'index.php?model=Stockin&action=getgoods&<!--{$from}-->',
+		delURL: 'index.php?model=Stockin&action=delgoods',
+		listSupplierURL: 'index.php?model=supplier&action=userlist',
+		listUserURL: 'index.php?model=User&action=UserList',
+		goodsgirdURL: 'index.php?model=goods&action=getgoodslist',
+		catTreeURL: 'index.php?model=goods&action=getcattree',
+		adminid:adminid,
+		order: orderinfo,
+		orderstatus: order_status,
+		stocktype: stocktype,
+		depot: depot,
+		action: user_action,
+		inout: 1,
+		Sales_channels: Sales_channels,
+		windowWidth: true,
+		autoHeight: true,
+		renderTo: document.body
+	});
+	loadend();
+});
+</script>
+<!--{include file="footer.tpl"}-->

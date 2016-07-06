@@ -1,0 +1,11 @@
+array (
+  'model' => 'log',
+  'action' => 'list',
+  'start' => '0',
+  'limit' => '20',
+  'ff' => '6',
+  'validString' => 'a87e666a3390d215de8786a93a9be72b',
+  'MYOIS_AUTH_STRING' => 'XEdXTxcaB0wHFUpZTDxLExMHSgZDRlsQbh8RTFQYAh5LXhA',
+  'MYOIS_AUTH_CHECKTIME' => '1',
+  'PHPSESSID' => '237lfuu27f7n0oqdbp8up0la83',
+)

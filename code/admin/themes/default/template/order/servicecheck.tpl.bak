@@ -1,0 +1,38 @@
+<!--{include file="header.tpl"}-->
+<script type="text/javascript" src="js/ordergrid.js"></script>
+<script type="text/javascript">
+Ext.onReady(function(){
+
+    var OrderGrid = new Ext.ux.OrderGrid({
+		border:false,
+		region:'center',
+		loadMask: true,
+		el:'center',
+		id:'Order_Service',
+        title: '客服审核',
+		headers:['order_id','status', 'PaidTime','Order_SN','Paypal_id','goods','Currency','Total Amout','Shipping Method','Buyerid','Country','Sales Channel','Account'],
+        fields: ['order_id','order_status','paid_time','order_sn','paypalid','goods','currency','order_amount','shipping_id','userid','country','Sales_channels','Sales_account_id'],
+		width:600,
+		frame:true,
+		saveURL:'index.php?model=order&action=getserviceorder',
+		delURL:'index.php?model=ebayaccount&action=paypaldel',
+		listURL:'index.php?model=order&action=getserviceorder',
+		windowTitle:'Paypal Account',
+		windowWidth:300,
+		windowHeight:130
+    });
+
+	var viewport = new Ext.Viewport({
+        layout:'border',
+        items:[
+			OrderGrid
+		]}
+	);
+
+
+	loadend();
+});
+</script>
+  <div id="north-div"></div>
+  <div id="center"></div>
+<!--{include file="footer.tpl"}-->
